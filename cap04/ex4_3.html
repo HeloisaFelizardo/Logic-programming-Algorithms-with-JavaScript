@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="img/livrojs.png" type="image/png" />
+		<link rel="stylesheet" href="css/estilos.css" />
+		<title>Exemplo 4.3</title>
+	</head>
+	<body>
+		<img src="img/ex4_2.jpg" alt="Balança de peso" />
+		<h1>Programa Cálculo da Taxa de Entrega Conforme o Bairro do Cliente</h1>
+		<script>
+			const prompt = require('prompt-sync')();
+			const bairro = prompt('Bairro de Entrega: ');
+
+			let taxaEntrega;
+
+			switch (bairro) {
+				case 'Centro':
+					taxaEntrega = 5.0;
+					break;
+				case 'Fragata':
+					taxaEntrega = 7.0;
+					break;
+				case 'Laranjal':
+					taxaEntrega = 10.0;
+					break;
+				default:
+					taxaEntrega = 0.0;
+			}
+
+			alert(`Taxa R$: ${taxaEntrega.toFixed(2)}`);
+		</script>
+	</body>
+</html>
