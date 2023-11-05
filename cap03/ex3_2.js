@@ -1,3 +1,5 @@
+// Programa Revenda
+
 const prompt = require('prompt-sync')();
 const veiculo = prompt('Veículo: ');
 const preco = Number(prompt('Preço: '));

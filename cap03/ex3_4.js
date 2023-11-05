@@ -1,5 +1,6 @@
-const prompt = require('prompt-sync')();
+/* Elaborar um programa para uma veterinária, que leia o peso de uma ração em kg e o quanto um gato consome por dia da ração, em gramas. Informe quantos dias irá durar a ração e o quanto sobra da ração (em gramas). */
 
+const prompt = require('prompt-sync')();
 const pesoKg = Number(prompt('Peso da ração (Kg): '));
 const consumo = Number(prompt('Consumo diário (gr): '));
 const pesoGr = pesoKg * 1000;

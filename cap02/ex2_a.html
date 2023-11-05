@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Exercício 2.a</title>
-	</head>
-	<body>
-		<h1>Farmácia JS</h1>
-		<form>
-			<p>
-				Medicamento:
-				<input type="text" id="inMedicamento" />
-			</p>
-			<p>
-				Preço R$:
-				<input type="number" id="inPreco" min="0" step="0.01" />
-			</p>
-			<input type="submit" value="Mostrar promoção" />
-		</form>
-		<h3 id="outResp1"></h3>
-		<h3 id="outResp2"></h3>
-		<script src="js/ex2_a.js"></script>
-	</body>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Exercício 2.a</title>
+</head>
+
+<body>
+	<!-- Uma farmácia está com uma promoção - Na compra de duas unidades de um mesmo medicamento, o cliente recebe como desconto os centavos do valor total. Elaborar um programa que leia a descrição e preço de um medicamento. Informe o valor do produto na promoção. -->
+	<h1>Farmácia JS</h1>
+	<form>
+		<p>
+			Medicamento:
+			<input type="text" id="inMedicamento" />
+		</p>
+		<p>
+			Preço R$:
+			<input type="number" id="inPreco" min="0" step="0.01" />
+		</p>
+		<input type="submit" value="Mostrar promoção" />
+	</form>
+	<h3 id="outResp1"></h3>
+	<h3 id="outResp2"></h3>
+	<script src="js/ex2_a.js"></script>
+</body>
+
 </html>
