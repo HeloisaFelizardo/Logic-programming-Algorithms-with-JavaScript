@@ -1,3 +1,5 @@
+/* Elaborar um programa que leia um número - que deve ser uma centena. Calcule e exiba a centena invertida. Caso o número não seja uma centena, exiba mensagem. */
+
 const prompt = require('prompt-sync')();
 const numero = Number(prompt('Número (centena): '));
 if (numero < 100 || numero >= 1000) {

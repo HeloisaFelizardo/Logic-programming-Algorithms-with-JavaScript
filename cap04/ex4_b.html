@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="icon" href="img/livrojs.png" type="image/png" />
-		<link rel="stylesheet" href="css/estilos.css" />
-		<title>Exemplo 4.b</title>
-	</head>
-	<body>
-		<img src="img/exerc.jpg" alt="Globo Terreste" />
-		<h1>Programa Verifica a Velocidade</h1>
-		<form>
-			<p>
-				Velocidade permitida:
-				<input type="number" id="inVelocidadePermitida" required />
-			</p>
-			<p>
-				Velocidade do Condutor:
-				<input type="number" id="inVelocidadeCondutor" required />
-			</p>
-			<input type="submit" value="Verificar Velocidade" />
-		</form>
-		<h3 id="outResp"></h3>
-		<script src="js/ex4_b.js"></script>
-	</body>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" href="img/livrojs.png" type="image/png" />
+	<link rel="stylesheet" href="css/estilos.css" />
+	<title>Exemplo 4.b</title>
+</head>
+
+<body>
+	<!-- Elaborar um programa que leia a velocidade permitida em uma estrada e a velocidade de um condutor. Se a velocidade for inferior ou igual à permitida, exiba "Sem multa". Se a velocidade for de até 20% maior que a permitida, exiba "Multa Leve". E, se a velocidade for superior a 20% da velociade permitida, exiba "Multa Grave". -->
+	<img src="img/exerc.jpg" alt="Globo Terreste" />
+	<h1>Programa Verifica a Velocidade</h1>
+	<form>
+		<p>
+			Velocidade permitida:
+			<input type="number" id="inVelocidadePermitida" required />
+		</p>
+		<p>
+			Velocidade do Condutor:
+			<input type="number" id="inVelocidadeCondutor" required />
+		</p>
+		<input type="submit" value="Verificar Velocidade" />
+	</form>
+	<h3 id="outResp"></h3>
+	<script src="js/ex4_b.js"></script>
+</body>
+
 </html>
