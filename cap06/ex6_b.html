@@ -6,23 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/livrojs.png">
     <link rel="stylesheet" href="css/estilos.css">
-    <title>Exercício 6.a</title>
+    <title>Exercício 6.b</title>
 </head>
 
 <body>
     <img src="img/exerc.jpg" alt="Exercícios" class="normal">
-    <h1>Jogos Eliminatórios</h1>
+    <h1>Programa números em ordem</h1>
     <form>
         <p>
-            Clube:
-            <input type="text" id="inClube" required autofocus>
+            Número:
+            <input type="number" id="inNumero" required autofocus>
             <input type="submit" value="Adicionar">
         </p>
-        <input type="button" value="Listar Clubes" id="btListar">
-        <input type="button" value="Montar Tabela de Jogos" id="btMontar">
+        <p><input type="button" value="Verificar Ordem" id="btVerificar"></p>
+
     </form>
-    <pre></pre>
-    <script src="js/ex6_a.js"></script>
+    <h3 id="outLista"></h3>
+    <h3 id="outOrdem" class="italico fonteAzul"></h3>
+    <script src="js/ex6_b.js"></script>
 </body>
 
 </html>
