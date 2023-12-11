@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/livrojs.png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Exemplo 7.3</title>
+</head>
+
+<body>
+    <!-- O programa deve ler uma palavra e exibí-la de forma invertida. Na inversão, o primeiro caractere deve ficar em letra maiúscula e os demais, em minúsculas. -->
+    <script>
+        const palavra = prompt('Palavra: ')
+        const tam = palavra.length
+
+        let inverso = palavra.charAt(tam - 1).toUpperCase()
+
+        for (let i = tam - 2; i >= 0; i--) {
+            inverso += palavra.charAt(i).toLowerCase()
+        }
+        alert(`Palavra: ${palavra}\n Invertida ${inverso}`)
+    </script>
+</body>
+
+</html>
