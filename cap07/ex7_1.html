@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/livrojs.png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Exemplo 7.1</title>
+</head>
+
+<body>
+    <!-- O script lê o anuncio, descobre o tamanho do texto e percorre todos os caracteres que o compõem. Ao encontrar um epaço, acrecenta-se 1 para a variável numPalavras. Como um texto com 5 espaços contém 6 palavras, deve-se acrescentar 1 antes de exibir a resposta para o usuário. -->
+    <script>
+        const anuncio = prompt('Anuncio: ')
+        let numPalavras = 0
+        const tam = anuncio.length
+        for (let i = 0; i < tam; i++) {
+            //uso do método chartAt() para percorrer os caracteres de uma string
+            if (anuncio.charAt(i) === ' ') {
+                numPalavras++
+            }
+        }
+        alert(`Anuncio: ${anuncio}\n Nº de palavras: ${numPalavras + 1}`)
+
+        //O exemplo a seguir usando for..of
+        /*  let numPalavras = 0
+         for (const letra of anuncio) {
+             if (letra === ' ') {
+                 numPalavras++
+             }
+         } */
+    </script>
+</body>
+
+</html>
