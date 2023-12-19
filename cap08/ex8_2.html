@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/livrojs.png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Exemplo 8.2</title>
+</head>
+
+<body>
+    <img src="img/ex8_2.jpg" alt="Em 10x" class="normal">
+    <h1>Revenda Avenida - Promoção</h1>
+    <form>
+        <p>
+            Modelo do Veículo:
+            <input type="text" id="inModelo" required autofocus>
+        </p>
+        <p>
+            Ano de Fabricação:
+            <input type="number" id="inAno" required>
+        </p>
+        <p>
+            Preço R$:
+            <input type="number" min="0" step="0.01" id="inPreco" required>
+        </p>
+        <input type="submit" value="Classificar - Calcular Entrada e Parcelas">
+    </form>
+    <h3 id="outResp1"></h3>
+    <h3 id="outResp2"></h3>
+    <h3 id="outResp3"></h3>
+    <script src="js/ex8_2.js"></script>
+</body>
+
+
+</html>

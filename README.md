@@ -7,6 +7,7 @@
 - Capítulo 5: Repetições
 - Capitulo 6: Vetores
 - Capitulo 7: Strings e datas
+- Capitulo 8: Funções e Eventos
 
 Lógica de Progamação e Algoritmos com JavaScript
 (Edécio Fernando Iepsen) - Editora Novatec

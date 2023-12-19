@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/livrojs.png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Exemplo 8.c</title>
+</head>
+
+<body>
+    <img src="img/exerc.jpg" alt="Exercícios" class="normal">
+    <h1>Veterinária Avenida</h1>
+    <form>
+        <p>
+            Valor da Vacina:
+            <input type="number" id="inPreco" min="0" step="0.01" class="alinha-direita" required autofocus>
+        </p>
+        <p>
+            Possui Convênio:
+            <input type="radio" name="produto" id="rbSim"> Sim
+            <input type="radio" name="produto" id="rbNao" checked autofocus> Não
+        </p>
+        <p>
+            Convênio:
+            <select id="inConvenio" class="oculta">
+                <option value="amigos">Amigos dos Animais</option>
+                <option value="saude">Saúde Animal</option>
+            </select>
+        </p>
+        <input type="submit" value="Calcular Desconto">
+    </form>
+    <h3 id="outResp1"></h3>
+    <h3 id="outResp2"></h3>
+    <script src="js/resp8_c.js"></script>
+</body>
+
+
+</html>
