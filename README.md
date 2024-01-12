@@ -8,6 +8,6 @@
 - Capitulo 6: Vetores
 - Capitulo 7: Strings e datas
 - Capitulo 8: Funções e Eventos
-
-Lógica de Progamação e Algoritmos com JavaScript
-(Edécio Fernando Iepsen) - Editora Novatec
+- Capitulo 9: Persistência de dados com localStorage
+  Lógica de Progamação e Algoritmos com JavaScript
+  (Edécio Fernando Iepsen) - Editora Novatec
