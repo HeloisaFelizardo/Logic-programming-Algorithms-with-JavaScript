@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/livrojs.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>Exercício 10.a</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="img/exerc.jpg" alt="Exercícios" class="img-fluid">
+      </div>
+
+      <div class="col-sm-8" id="divIdade">
+        <h1>Velas de Aniversário</h1>
+
+        <form>
+          <p>
+            <label for="inIdade">Idade: </label>
+            <input type="number" id="inIdade" min="1" max="120" class="form-control" required autofocus>
+          </p>
+
+          <p>
+            <input type="submit" value="Exibir Velas" class="btn btn-primary">
+            <input type="reset" value="Novas Velas" class="btn btn-danger">
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="js/resp10_a.js"></script>
+</body>
+
+</html>

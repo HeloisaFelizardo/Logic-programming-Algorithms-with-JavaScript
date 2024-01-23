@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/livrojs.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>Exercício 10.c</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="img/exerc.jpg" alt="Exercícios" class="img-fluid">
+      </div>
+
+      <div class="col-sm-8" id="divJogos">
+        <h1>Copa do Brasil - Classificados</h1>
+
+        <form>
+          <p>
+            <label for="inClube">Clube: </label>
+            <input type="text" id="inClube" class="form-control" autofocus>
+          </p>
+
+          <p>
+            <input type="submit" value="Adicionar" class="btn btn-primary">
+            <input type="button" value="Montar Tabela de Jogos" id="btMontar" class="btn btn-success">
+            <input type="reset" value="Novos Clubes" class="btn btn-danger">
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="js/resp10_c.js"></script>
+</body>
+
+</html>
