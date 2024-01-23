@@ -9,5 +9,6 @@
 - Capitulo 7: Strings e datas
 - Capitulo 8: Funções e Eventos
 - Capitulo 9: Persistência de dados com localStorage
+- Capitulo 10: Inserir elementos no HTML via JavaScript
   Lógica de Progamação e Algoritmos com JavaScript
   (Edécio Fernando Iepsen) - Editora Novatec
