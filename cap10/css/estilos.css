@@ -1,0 +1,8 @@
+h1 { border-bottom-style: inset; }
+.tarefa-selecionada { color: red; font-style: italic; }
+.tarefa-normal { color: black; }
+img.moeda1-00 { height: 84px; width: 84px; margin-bottom: 5px; }
+img.moeda0-50 { height: 66px; width: 66px; margin-bottom: 5px; }
+img.moeda0-25 { height: 76px; width: 76px; margin-bottom: 5px; }
+img.moeda0-10 { height: 60px; width: 60px; margin-bottom: 5px; }
+.exclui { color: red; cursor: pointer; }
