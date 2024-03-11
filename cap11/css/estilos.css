@@ -1,0 +1,8 @@
+h1 { border-bottom-style: inset; }
+h5 { font-style: italic} 
+pre { font-style: italic; font-size: 1.1em;}
+figure { display: inline-block; font-size: 0.7em; margin: 5px; }
+img.poltrona { width: 24; height: 16px; }
+.entreLetras { letter-spacing: 0.5em; }
+.exclui { color: red; cursor: pointer; }
+.corFundo { background-color:lightskyblue; }
